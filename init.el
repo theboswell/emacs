@@ -13,7 +13,8 @@
   :ensure
   :init
   (bind-key "C-." 'ace-jump-mode))
- 
+
+(bind-key "C-!" 'compile)
 (bind-key "C-x f" 'find-file)
 (bind-key "C-v" 'clipboard-yank)
 (setq x-select-enable-clipboard t)
